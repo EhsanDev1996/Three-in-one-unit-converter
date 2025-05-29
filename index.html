@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit-calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="title"><h1>THREE-IN-ONE UNIT CONVERTER</h1></div>
+    <div class="container">
+        <div class="unit-container">
+            <div class="scale-name">
+                <label for="scale-title">CHOOSE CONVERTER: </label>
+                <select name="scale-title" id="scale-title">
+                    <option value=""></option>
+                    <option value="temperature">Temperature Converter</option>
+                    <option value="distance">Distance Converter</option>
+                    <option value="weight">Weight Converter</option>
+                </select>
+            </div>
+            <div class="input-box">
+
+                <label for="choose-scale" >CONVERT FROM: </label>
+                <input type="number" id="choose-scale" placeholder="Enter number" >
+
+
+                <label for="convert-from1"></label>
+                <select name="scale1" id="convert-from1">
+                    <option value="celsius">°C</option>
+                    <option value="fahrenheit">°F</option>
+                    <option value="kelvin"> K</option>
+                </select>
+
+
+                <label for="convert-from2"></label>
+                <select name="scale1" id="convert-from2">
+                    <option value="kilometer">km</option>
+                    <option value="mile">mi</option>
+                    <option value="meter">m</option>
+                    
+                </select>
+
+
+                <label for="convert-from3"></label>
+                <select name="scale1" id="convert-from3">
+                    <option value="kilogram">kg</option>
+                    <option value="pound">lb</option>
+                    <option value="gram">g</option>
+                </select>
+                
+            </div>
+
+
+            <div class="converting-to-box">
+                <label for="convert-in" >CONVERT IN:</label>
+                <label for="convert-in1"></label>
+                <select name="scale-in1" id="convert-in1">
+                    <option value="celsius">Degree Celsius(°C)</option>
+                    <option value="fahrenheit">Fahrenheit(°F)</option>
+                    <option value="kelvin">Kelvin(K)</option>
+                </select>
+
+
+                <label for="convert-in2"></label>
+                <select name="scale-in1" id="convert-in2">
+                    <option value="kilometer">Kilometer(km)</option>
+                    <option value="meter">Meter(m)</option>
+                    <option value="mile">Miles(mi)</option>
+                    
+                </select>
+
+                <label for="convert-in3"></label>
+                <select name="scale-in1" id="convert-in3">
+                    <option value="kilogram">Kilogram(kg)</option>
+                    <option value="pound">Pound(lb)</option>
+                    <option value="gram">Gram(g)</option>
+                </select>
+
+
+            </div>
+            <div class="convert-button">
+                <button id="result">Convert---></button>
+            </div>
+        </div>
+        <div class="final-result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

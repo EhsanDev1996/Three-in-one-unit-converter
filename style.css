@@ -1,0 +1,142 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #3652AD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    height: 10vh;
+    width: 80vw;
+    background-color: #3652AD;
+    color: #E9F6FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.6vmin;
+    font-family: "Rubik", sans-serif;
+}
+
+.container{
+    height: 70vh;
+    width: 80vw;
+    display: inline-flex;
+    margin-bottom: 10vh;
+    border: 4.8px solid #FE7A36;
+    border-radius: 0.5rem;
+    font-family: "Rubik", sans-serif;
+}
+
+.unit-container{
+    height: 100%;
+    width: 50%;
+    background-color: #E9F6FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: #280274;
+    font-size: clamp(1.5vmin, 2.5vmin, 3vmin);
+}
+.scale-name{
+    /* height: 10vh;
+    width: 30vw;
+    background-color: rgb(82, 175, 35); */
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-box{
+    /* height: 10vh;
+    width: 30vw;
+    background-color: #DDA853; */
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.converting-to-box{
+    /* height: 10vh;
+    width: 30vw;
+    background-color: aqua; */
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.convert-button{
+    height: 10vh;
+    width: 30vw;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    height: 5vmin;
+    width: 15vmin;
+    border: none;
+    background-color: #280274;
+    color: #E9F6FF;
+    font-size: 2vmin;
+    font-family: "Rubik", sans-serif;
+}
+.final-result{
+    height: 100%;
+    width: 50%;
+    background-color: #FE7A36;
+    color: #E9F6FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5vmin;
+    
+}
+
+.hide{
+    display: none;
+}
+
+input{
+    border: none;
+    text-align: center;
+    height: 3vmin;
+    width: 12vmin;
+    font-size: clamp(1.5vmin, 2vmin, 3vmin);
+}
+
+select[name = scale1]{
+    height: 3vmin;
+    width: 6vmin;
+    font-size: clamp(1.5vmin, 2vmin, 3vmin);
+}
+
+select[name = scale-in1]{
+    font-size: clamp(1.5vmin, 2vmin, 3vmin);
+}
+select[name = select-title]{
+    font-size: clamp(1.5vmin, 2vmin, 3vmin);
+}
+label[for = convert-in]{
+    margin-right: 8vmin;
+}
+
+label[for = choose-scale]{
+    margin-right: 5vmin;
+}
+
+select{
+    border: none;
+    text-align: center;
+    height: 3vmin;
+    width: 18vmin;
+}
